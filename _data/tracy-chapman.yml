@@ -1,0 +1,162 @@
+- name: Tracy Chapman
+  stub: tracy-chapman
+  type: singer
+  born: 1964
+  originTown: Cleveland, Ohio
+  originCountry: USA
+  genre:
+    - Folk
+    - Blues
+    - Soul
+  blurb: Multi-platinum selling, multi-Grammy winning singer-songwriter of bluesy folk songs, blessed with a hauntingly beautiful voice.
+  discography:
+    - title: Tracy Chapman
+      stub: tracy-chapman_album
+      date: 5 April 1988
+      label: Elektra
+      tracks:
+        - Talkin' 'bout a Revolution
+        - Fast Car
+        - Across the Lines
+        - Behind the Wall
+        - Baby Can I Hold You
+        - Mountain o' Things
+        - She's Got Her Ticket
+        - Why?
+        - For My Lover
+        - If Not Now ...
+        - For You
+      spotify: 6hmmX5UP4rIvOpGSaPerV8
+      appleMusic: tracy-chapman/79565550
+      highlight: "yes"
+    - title: Crossroads
+      stub: crossroads
+      date: 3 October 1989
+      label: Elektra
+      tracks:
+        - Crossroads
+        - Bridges
+        - Freedom Now
+        - Material World
+        - Be Careful of My Heart
+        - Subcity
+        - Born to Fight
+        - A Hundred Years
+        - This Time
+        - All That You Have Is Your Soul
+      spotify: 7xlc8VKmPqZJ9m1Dphm6O5
+      appleMusic: crossroads/293102706
+      highlight: "no"
+    - title: Matters of the Heart
+      stub: matters-of-the-heart
+      date: 28 April 1992
+      label: Elektra
+      tracks:
+        - Bang Bang Bang
+        - So
+        - I Used to Be a Sailor
+        - The Love That You Had
+        - Woman's Work
+        - If These Are the Things
+        - Short Supply
+        - Dreaming on a World
+        - Open Arms
+        - Matters of the Heart
+      spotify: 5DPH67FwVR6y2LwFHKfFpB
+      appleMusic: matters-of-the-heart/293089707
+      highlight: "no"
+    - title: New Beginning
+      stub: new-beginning
+      date: 14 November 1995
+      label: Elektra
+      tracks:
+        - Heaven's Here on Earth
+        - New Beginning
+        - Smoke and Ashes
+        - Cold Feet
+        - At This Point in My Life
+        - The Promise
+        - The Rape of the World
+        - Tell It Like It Is
+        - Give Me One Reason
+        - Remember the Tin Man
+        - I'm Ready
+      spotify: 3XsOzkIBoHsxZ7jP3QF2oB
+      appleMusic: new-beginning/293102727
+      highlight: "yes"
+    - title: Telling Stories
+      stub: telling-stories
+      date: 14 February 2000
+      label: Elektra
+      tracks:
+        - Telling Stories
+        - Less Than Strangers
+        - Speak the Word
+        - It's OK
+        - Wedding Song
+        - Unsung Palm
+        - Nothing Yet
+        - Paper and Ink
+        - Devotion
+        - The Only One
+        - First Try
+      spotify: 27gojdSDBhEb86r7svM6oG
+      appleMusic: telling-stories/293102730
+      highlight: "no"
+    - title: Let It Rain
+      stub: let-it-rain
+      date: 15 October 2002
+      label: Elektra
+      tracks:
+        - Let It Rain
+        - Another Sun
+        - You're the One
+        - In the Dark
+        - Almost
+        - Hard Wired
+        - Say Hallelujah
+        - Broken
+        - Goodbye
+        - Over in Love
+        - I Am Yours
+      spotify: 0YSvgmYJPucQvZVYrCZwHN
+      appleMusic: let-it-rain/293102735
+      highlight: "no"
+    - title: Where You Live
+      stub: where-you-live
+      date: 13 September 2005
+      label: Elektra
+      tracks:
+        - Change
+        - Talk to You
+        - 3,000 Miles
+        - Going Back
+        - Don't Dwell
+        - Never Yours
+        - America
+        - Love's Proof
+        - Before Easter
+        - Taken
+        - Be and Be Not Afraid
+      spotify: 6oE4fYGorROOUqUujaKWYq
+      appleMusic: where-you-live/79566377
+      highlight: "yes"
+    - title: Our Bright Future
+      stub: our-bright-future
+      date: 11 November 2008
+      label: Elektra
+      tracks:
+        - Sing for You
+        - I Did It All
+        - Save Us All
+        - Our Bright Future
+        - For a Dream
+        - Thinking of You
+        - A Theory
+        - Conditional
+        - Something to See
+        - The First Person on Earth
+        - Spring
+      spotify: 4B3qlttYNcfrAQ2BVM1oMZ
+      appleMusic: our-bright-future/292026879
+      highlight: "no"

@@ -1,0 +1,138 @@
+@import 'reset';
+@import 'colors';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1rem auto;
+    display: block;
+    width: 90%;
+    max-width: 1360px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: $background-color;
+    color: $text-color;
+    font-weight: 400;
+}
+
+header {
+    font-family: 'Contrail One', display;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    position: sticky;
+    top: 1rem;
+    & a {
+        text-decoration: none;
+        color: $brand-color;
+    }
+}
+
+.heading {
+    font-family: 'Contrail One', display;
+    color: $heading-color;
+}
+
+.page-title {
+    font-size: 3rem;
+}
+
+.section-title {
+    font-size: 2rem;
+}
+
+.album-title {
+    font-size: 1.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    & em {
+        color: $accent-color;
+        font-weight: 700;
+    }
+}
+
+.star {
+    color: $accent-color;
+}
+
+a {
+     color: $link-color;
+}
+
+.artist-image {
+    margin-bottom: 2rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    &.album-cover {
+        width: 90%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+}
+
+.track-listing {
+    font-size: 1.3125rem;
+    counter-reset: new-counter;
+    & li {
+        counter-increment: new-counter;
+        &::before {
+            content: counter(new-counter) '.';
+            color: $brand-color;
+            font-weight: 700;
+            margin-right: 0.5rem;
+        }
+    }
+}
+
+.album {
+    padding: 3rem 0;
+    border-bottom: 1px solid $accent-color;
+    position: relative;
+    &:last-child {
+        border-bottom: none;
+    }
+}
+
+.highlight {
+    position: absolute;
+    top: 2.5rem;
+    right: 0;
+    font-size: 2rem;
+    color: $brand-color;
+    vertical-align: middle;
+}
+
+.album-title {
+    width: calc(100% - 3rem);
+}
+
+/* layout */
+
+.grid-layout {
+    display: grid;
+}
+
+.grid-layout_one-two {
+    grid-template-columns: 1fr 3fr;
+    column-gap: 10rem;
+}
+.grid-layout_equal {
+    grid-template-columns: 1fr 1fr;
+}
+
+.sticky-item {
+    position: sticky;
+    &.page-title {
+        top: 5.5rem;
+    }
+    &.artist-meta {
+        top: 9.75rem;
+    }
+}

@@ -1,0 +1,262 @@
+- name: The Who
+  stub: the-who
+  type: band
+  born: 1964
+  originTown: London
+  originCountry: UK
+  genre:
+    - Rock
+    - Power pop
+    - Hard rock
+  blurb: Hugely influential hard rock pioneers and mod cultural icons.
+  discography:
+    - title: My Generation
+      stub: my-generation
+      date: 3 December 1965
+      label: Brunswick
+      tracks:
+        - Out in the Street
+        - I Don't Mind
+        - The Good's Gone
+        - La-La-La-Lies
+        - Much Too Much
+        - My Generation
+        - The Kids Are Alright
+        - Please, Please, Please
+        - It's Not True
+        - I'm a Man
+        - A Legal Matter
+        - The Ox
+      spotify: 2EMmHEhCZSMMEM85HTFJvj
+      appleMusic: my-generation/1444104138
+      highlight: "yes"
+    - title: A Quick One
+      stub: a-quick-one
+      date: 9 December 1966
+      label: Reaction/Polydor
+      tracks:
+        - Run Run Run
+        - Boris the Spider
+        - I Need You
+        - Whiskey Man
+        - Heat Wave
+        - Cobwebs and Strange
+        - Don't Look Away
+        - See My Way
+        - So Sad About Us
+        - A Quick One, While He's Away
+      spotify: 3n2LVedkCL8X9DXobLuvfo
+      appleMusic: a-quick-one-bonus-track-version/1442211308
+      highlight: "no"
+    - title: The Who Sell out
+      stub: the-who-sell-out
+      date: 15 December 1967
+      label: Track
+      tracks:
+        - Armenia City in the Sky
+        - Heinz Baked Beans
+        - Mary Anne with a Shaky Hand
+        - Odorono
+        - Tattoo
+        - Our Love Was
+        - I Can See for Miles
+        - Can't Reach You
+        - Medac
+        - Relax
+        - Silas Stingy
+        - Sunrise
+        - Rael (Pt. 1 & 2)
+      spotify: 01Zc1xVpVQFnVKBc0SMMBO
+      appleMusic: the-who-sell-out-mono-version-bonus-track-version/1442976433
+      highlight: "no"
+    - title: Tommy
+      stub: tommy
+      date: 17 May 1968
+      label: Decca
+      tracks:
+        - Overture
+        - It's a Boy
+        - "1921"
+        - Amazing Journey
+        - Sparks
+        - The Hawker
+        - Christmas
+        - Cousin Kevin
+        - The Acid Queen
+        - Underture
+        - Do You Think It's Alright?
+        - Fiddle About
+        - Pinball Wizard
+        - There's a Doctor
+        - Go to the Mirror!
+        - Tommy Can You Hear Me?
+        - Smash the Mirror
+        - Sensation
+        - Miracle Sun
+        - Sally Simpson
+        - I'm Free
+        - Welcome
+        - Tommy's Holiday Camp
+        - We're Not Gonna Take It All
+      spotify: 5cT7ee1sy2oEbFalP4asS4
+      appleMusic: tommy/1461210985
+      highlight: "yes"
+    - title: Who's Next
+      stub: whos-next
+      date: 14 August 1971
+      label: Track/Decca
+      tracks:
+        - Baba O'Riley
+        - Bargain
+        - Love Ain't for Keeping
+        - My Wife
+        - The Song Is Over
+        - Getting in Tune
+        - Going Mobile
+        - Behind Blue Eyes
+        - Won't Get Fooled Again
+      spotify: 5MqyhhHbT13zsloD3uHhlQ
+      appleMusic: whos-next-deluxe-edition/1440850317
+      highlight: "yes"
+    - title: Quadrophenia
+      stub: quadrophenia
+      date: 26 October 1973
+      label: Track/MCA
+      tracks:
+        - I Am the Sea
+        - The Real Me
+        - Quadrophenia
+        - Cut My Hair
+        - The Punk and the Godfather
+        - I'm the One
+        - The Dirty Jobs
+        - Helpless Dancer
+        - Is It in My Head?
+        - I've Had Enough
+        - "5:15"
+        - Sea and Sand
+        - Drowned
+        - Bell Boy
+        - Doctor Jimmy
+        - The Rock
+        - Love, Reign O'er Me
+      spotify: 3JV6BIIXo3mj6GLIGH9p8a
+      appleMusic: quadrophenia-remastered/1440824353
+      highlight: "yes"
+    - title: The Who by Numbers
+      stub: the-who-by-numbers
+      date: 3 October 1975
+      label: Polydor/MCA
+      tracks:
+        - Slip Kid
+        - However Much I Booze
+        - Squeeze Box
+        - Dreaming from the Waist
+        - Imagine a Man
+        - Success Story
+        - They Are All in Love
+        - Blue, Red and Grey
+        - How Many Friends
+        - In a Hand or a Face
+      spotify: 6IxRCbXtyK6MlHlofsnhlm
+      appleMusic: the-who-by-numbers-bonus-track-version/1440856046
+      highlight: "no"
+    - title: Who Are You
+      stub: who-are-you
+      date: 18 August 1978
+      label: Polydor/MCA
+      tracks:
+        - New Song
+        - Had Enough
+        - "905"
+        - Sister Disco
+        - Music Must Change
+        - Trick of the Light
+        - Guitar and Pen
+        - Love Is Coming Down
+        - Who Are You
+      spotify: 23IJ5wLRhEZ9DOuia5mPiZ
+      appleMusic: who-are-you-bonus-track-version/1469575656
+      highlight: "no"
+    - title: Face Dances
+      stub: face-dances
+      date: 16 March 1981
+      label: Polydor/Warner Bros.
+      tracks:
+        - You Better You Bet
+        - Don't Let Go the Coat
+        - Cache Cache
+        - The Quiet One
+        - Did You Steal My Money
+        - How Can You Do It Alone
+        - Daily Records
+        - You
+        - Another Tricky Day
+      spotify: 6mvsqS8xbCijlQLLjqDXng
+      appleMusic: face-dances-bonus-track-version/1443232083
+      highlight: "no"
+    - title: It's Hard
+      stub: its-hard
+      date: 4 September 1982
+      label: Polydor/Warner Bros.
+      tracks:
+        - Athena
+        - It's Your Turn
+        - Cooks County
+        - It's Hard
+        - Dangerous
+        - Eminence Front
+        - I've Known No War
+        - One Life's Enough
+        - One at a Time
+        - Why Did I Fall for That
+        - A Man Is a Man
+        - Cry If You Want
+      spotify: 7ISmM3vnNkZ7EWkaiH6hBH
+      appleMusic: its-hard-bonus-track-version/1440853411
+      highlight: "no"
+    - title: Endless Wire 
+      stub: endless-wire
+      date: 30 October 2006
+      label: Polydor/Universal Republic
+      tracks:
+        - Fragments
+        - A Man in a Purple Dress
+        - Mike Post Theme
+        - In the Ether
+        - Black Widow's Eyes
+        - Two Thousand Years
+        - God Speaks of Marty Robbins
+        - It's Not Enough
+        - You Stand by Me
+        - Sound Round
+        - Pick up the Peace
+        - Unholy Trinity
+        - Trilby's Piano
+        - Fragments of Fragments
+        - We Got a Hit
+        - They Made My Dream Come True
+        - Mirror Door
+        - Tea & Theatre
+      spotify: 7ISmM3vnNkZ7EWkaiH6hBH
+      appleMusic: its-hard-bonus-track-version/1440853411
+      highlight: "no"
+    - title: Who 
+      stub: who
+      date: 6 December 2019
+      label: Polydor/Interscope
+      tracks:
+        - All This Music Must Fade
+        - Ball and Chain
+        - I Don't Wanna Get Wise
+        - Detour
+        - Beads on One String
+        - Hero Ground Zero
+        - Street Song
+        - I'll Be Back
+        - Break the News
+        - Rockin' in Rage
+        - She Rocked My World
+      spotify: 2WuaYvGgx9MS1Vj37aBiyU
+      appleMusic: who-deluxe/1479714572
+      highlight: "no"

@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Contrail+One&family=PT+Sans:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/styles.css"> {% feed_meta %}
+</head>
+
+<body>
+    {% include header.html %} 
+    {% assign stub = page.stub %} 
+    {% for artist in site.data[stub] %} 
+    {% if artist.name == page.title %}
+    <h2 class="page-title heading sticky-item">{{ artist.name }}</h2>
+    <div class="grid-layout_one-two grid-layout">
+        <div class="grid-item_left grid-item_narrow">
+            <div class="sticky-item artist-meta">
+                <p>{% if artist.type == 'singer' %}b. {% endif %}{{ artist.born }}<br>{{ artist.originTown }} ({{ artist.originCountry }})
+                </p>
+                <p>
+                    {{ artist.genre | join: ' *\|* ' | markdownify }}
+                </p>
+                <p>{{ artist.blurb }}</p>
+            </div>
+        </div>
+        <div class="grid-item_right grid-item_wide">
+            <div class="artist-image">
+                <img class="artist-image_full" src="/assets/img/{{ artist.stub }}/{{ artist.stub }}.jpg" alt="{{ artist.name }}">
+            </div>
+            <div class="artist-discography artist-section">
+                <h2 class="section-title heading">Discography</h2>
+                {% for album in artist.discography %}
+                <section class="album">
+                    <h3 class="album-title heading">{{ album.title }}</h3>
+                    <p>{{ album.date }} <em>|</em> {{ album.label }} </p>
+                    <div class="grid-layout grid-layout_equal">
+                        <div class="grid-item_equal grid-layout">
+                            <div>
+                                <img class="album-cover" src="/assets/img/{{ artist.stub }}/{{ album.stub }}.jpg" alt="{{ album.title }}">
+                                <p><a href="https://open.spotify.com/album/{{ album.spotify }}">Spotify</a> <em>|</em> <a href="https://music.apple.com/gb/album/{{ album.appleMusic }}">Apple Music</a></p>
+                            </div>
+                        </div>
+                        <div class="grid-item_equal">
+                            <ol class="track-listing">
+                                {% for song in album.tracks %}
+                                <li>{{ song }}</li>
+                                {% endfor %}
+                            </ol>
+                        </div>
+                    </div>
+                    {% if album.highlight == 'yes' %}
+                    <p class="highlight" title="Recommended album">✦</p>
+                    {% endif %}
+                </section>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endif %} 
+    {% endfor %}
+</body>
+<script src="/assets/scripts/script.js"></script>
+
+</html>

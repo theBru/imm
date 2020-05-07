@@ -1,0 +1,30 @@
+- name: Joni Mitchell
+  stub: joni-mitchell
+  type: singer
+  born: 1943
+  originTown: Fort Macleod, Alberta
+  originCountry: Canada
+  genre:
+    - Folk
+    - Acoustic rock
+    - Jazz
+  blurb: Highly respected singer/songwriter of poetic, introspective, and socially-conscious songs.
+  discography:
+    - title: Song to a Seagull
+      stub: song-to-a-seagull
+      date: 23 March 1968
+      label: Reprise
+      tracks:
+        - I Had a King
+        - Michael from Mountains
+        - Night in the City
+        - Marcie
+        - Nathan La Franeer
+        - Sisotowbell Lane
+        - The Dawntreader
+        - The Pirate of Penance
+        - Song to a Seagull
+        - Cactus Tree
+      spotify: 6rg3WTvmv68Vd6tgR0yS0E
+      appleMusic: joni-mitchell-song-to-a-seagull/296207252
+      highlight: "no"
